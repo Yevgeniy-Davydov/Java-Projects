@@ -12,7 +12,7 @@ public class SlotMachine {
         return symbols[index];
     }
 
-    // 3 Symbole ziehen und anzeigen
+    // 3 Symbole ziehen und anzeigen lassen
     static String[] spin(Random random) {
         String[] result = new String[3];
         result[0] = getRandomSymbol(random);
